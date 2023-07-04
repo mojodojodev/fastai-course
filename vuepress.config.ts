@@ -7,6 +7,7 @@ import codeCopyPlugin from '@snippetors/vuepress-plugin-code-copy'
 const mojoGrammar = JSON.parse(readFileSync("./syntax/mojo.tmLanguage.json").toString())
 
 export default defineUserConfig({
+    base: '/fastai-course/',
     lang: 'en-US',
     title: 'fast.ai course',
     description: 'Practical Deep Learning for Coders exercises',

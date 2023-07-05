@@ -11,7 +11,7 @@ export default defineUserConfig({
     lang: 'en-US',
     title: 'fast.ai course',
     description: 'Practical Deep Learning for Coders exercises',
-    pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules', '!venv'],
+    pagePatterns: ['*.md', '!README.md', '!notes.md'],
     markdown: {
         code: {
             lineNumbers: false
@@ -31,6 +31,7 @@ export default defineUserConfig({
                 editLinkText: 'Edit this page on GitHub',
                 sidebar: [
                     '01-exercise',
+                    '02-exercise',
                 ],
             }
         }

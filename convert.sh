@@ -16,4 +16,6 @@ do
   if [ -f "${filename}.md" ]; then
     sed -i -r "s|!\[png\]\(${filename}_files/|![png](/|g" "${filename}.md"
   fi
+
+  rm -r "${filename}_files"
 done

@@ -5,6 +5,7 @@
     "author": "Mojo Dojo <mojodojodev@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "@gradio/client": "^0.1.4",
         "@snippetors/vuepress-plugin-code-copy": "^1.2.3",
         "@vuepress/plugin-back-to-top": "2.0.0-beta.62",
         "@vuepress/plugin-medium-zoom": "2.0.0-beta.62",

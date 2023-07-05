@@ -1,4 +1,4 @@
-# 01: Football Code Classifier
+# 01: Intro
 ## Setup
 Import fastbook and patch IPython for VS Code
 

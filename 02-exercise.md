@@ -1,4 +1,6 @@
 # 02: Production
+Taking football classifier from previous exercise, improving it and putting it into production.
+
 Can see app live [here on hugging face](https://huggingface.co/spaces/mojodojodev/football-classifier) and here's the iframe:
 
 <iframe
@@ -7,9 +9,6 @@ Can see app live [here on hugging face](https://huggingface.co/spaces/mojodojode
 	width="850"
 	height="550"
 ></iframe>
-
-
-This will be improving the previous model with new techniques and putting it into production with an API route to call at the end from this page.
 
 ## Setup
 Import fastbook and patch IPython for VS Code
